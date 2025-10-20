@@ -91,7 +91,3 @@ pip install torch torchvision numpy scikit-learn matplotlib pillow
 - Hyperparameters (epochs, patience, batch size, transformer depth) are configurable at the notebook head.
 - Class balancing is handled both with data augmentation and loss weighting.
 
-
-_This README explains the overall workflow, technical requirements, and quick-start guide for the notebook._[1]
-
-[1](https://github.com/hindu-muppala/VideoCapsuleAbnormalityDetection/blob/main/resnet-trans%204.ipynb)
