@@ -1,7 +1,5 @@
 
-# Video Capsule Abnormality Detection with ResNet + Transformer
-
-This repository provides a hybrid computer vision model using **ResNet** as a feature extractor and a **Transformer encoder** for classifying abnormalities in medical capsule endoscopy or video frames, emphasizing class imbalance handling.
+# Video Capsule Abnormality Detection with ResNet50 + Transformer
 
 ## Overview
 
@@ -12,7 +10,7 @@ This repository provides a hybrid computer vision model using **ResNet** as a fe
 
 ### 1. Imports and Dependencies
 
-- Libraries: `torch`, `torchvision`, `numpy`, `sklearn`, `matplotlib`, `PIL`
+- Libraries: `Pytorch`, `torchvision`, `numpy`, `sklearn`, `matplotlib`, `PIL`
 
 ### 2. Data Loading and Augmentation
 
@@ -51,8 +49,6 @@ This repository provides a hybrid computer vision model using **ResNet** as a fe
 
 - Custom loop with:
   - On-epoch evaluation and best model checkpointing
-  - Early stopping on plateau
-  - Save best model as `best_model.pth`
 
 ***
 
